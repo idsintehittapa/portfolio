@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.top-section{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-image{
+  height: 508px;
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 auto;
+  background: transparent url("./images/diana_unsplash.png") 0% 0% no-repeat padding-box;
+  background-position: center;
+  border: 1px solid #707070;
+  opacity: 0.8;
+}
+
+.portfolio{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    letter-spacing: 0.52px;
+}
+
+.portfolio-name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-align: left;
+}
+
+.profile-image{
+    top: 85px;
+    width: 220px;
+    height: 220px;
+    background: transparent url('./images/profile.jpg') 0% 0% no-repeat padding-box;
+    background-position: top center;
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+    position: absolute; /*figure out which pos*/
+    z-index: 3;
+}
+
+.summary-section{
+    height: 342px;
+    width: 100%;
+    max-width: 768px;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+}
+
+/*** media query ****/
+@media (min-width: 768px) {
+    }
