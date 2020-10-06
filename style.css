@@ -27,22 +27,25 @@ body{
   width: 100%;
   max-width: 768px;
   margin: 0 auto;
-  background: transparent url("./images/diana_unsplash.png") 0% 0% no-repeat padding-box;
-  background-position: center;
-  border: 1px solid #707070;
+  background: transparent url("./images/IMG_2437.JPG") 0% 0% no-repeat padding-box;
+  background-position: bottom;
+  background-size: cover;
+  border: 1px solid #434853;
   opacity: 0.8;
 }
 
-.portfolio{
+.p-portfolio{
   font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
   text-align: left;
   letter-spacing: 0.52px;
 }
 
-.portfolio-name{  /*img or div?*/
+.p-portfolio-name{  /*img or div?*/
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   text-align: left;
+  text-transform: uppercase;
 }
 
 .profile-image{
@@ -66,7 +69,7 @@ body{
   width: 100%;
   max-width: 768px;
   margin: 0 auto;
-  background: #F4F4F4 0% 0% no-repeat padding-box;
+  background: #CCCADC 0% 0% no-repeat padding-box;
   margin-top: 5px;
 }
 
@@ -77,15 +80,84 @@ body{
   padding: 60px 20px;
 }
 
-.test{
-    display: flex;
-    height: 342px;
-    width: 100%;
-    max-width: 768px;
-    margin: 0 auto;
-    background: #eb7070 0% 0% no-repeat padding-box;
+.tech-section{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 342px;
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+.tech-title-box{
+  margin: 10vh 0 5vh;
+  background: #434853 0% 0% no-repeat padding-box;
+}
+
+.p-tech-title{
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 6px;
+}
+
+.p-tech-info{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1em;
+  padding: 10px;
+  letter-spacing: 0.52px;
+}
+
+.featured-projects{ /*flex-wrap?*/
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  background: #CCCADC 0% 0% no-repeat padding-box;
+}
+
+.feature-title-box{ /*check if they all can live togehter */
+  margin: 10vh 0 5vh;
+  background: #434853 0% 0% no-repeat padding-box;
+}
+
+.p-feature-title{
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 6px;
+}
+
+footer{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 342px;
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  background: #D8A083 0% 0% no-repeat padding-box;
 }
 
 /*** media query ****/
 @media (min-width: 768px) {
+    }
+
+@media (min-width: 1024px){
+    .hero-image{
+      height: 969px;
+      width: 100%;
+      max-width: 1950px;
     }
