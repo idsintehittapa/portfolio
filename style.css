@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+h1,
+h2,
+p{
+  margin: 0 auto;
+}
+
+body{
+  margin: 0 auto;
+}
+
 .top-section{
   box-sizing: border-box;
   display: flex;
@@ -17,7 +27,6 @@
   width: 100%;
   max-width: 768px;
   margin: 0 auto;
-  padding: 0 auto;
   background: transparent url("./images/diana_unsplash.png") 0% 0% no-repeat padding-box;
   background-position: center;
   border: 1px solid #707070;
@@ -25,34 +34,56 @@
 }
 
 .portfolio{
-    font-family: 'Roboto', sans-serif;
-    text-align: left;
-    letter-spacing: 0.52px;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  letter-spacing: 0.52px;
 }
 
-.portfolio-name{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    text-align: left;
+.portfolio-name{  /*img or div?*/
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  text-align: left;
 }
 
 .profile-image{
-    top: 85px;
-    width: 220px;
-    height: 220px;
-    background: transparent url('./images/profile.jpg') 0% 0% no-repeat padding-box;
-    background-position: top center;
-    border: 3px solid #FFFFFF;
-    border-radius: 50%;
-    position: absolute; /*figure out which pos*/
-    z-index: 3;
+  top: 43%;
+  left: 27%;
+  width: 220px;
+  height: 220px;
+  background: transparent url('./images/profile.jpg') 0% 0% no-repeat padding-box;
+  background-position: top center;
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+  position: relative; /*figure out which pos*/
+  z-index: 3;  /*what does this do? I thougj z went 0-1*/
 }
 
 .summary-section{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 342px;
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  background: #F4F4F4 0% 0% no-repeat padding-box;
+  margin-top: 5px;
+}
+
+.p-summary{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  text-align: left;
+  padding: 60px 20px;
+}
+
+.test{
+    display: flex;
     height: 342px;
     width: 100%;
     max-width: 768px;
-    background: #F4F4F4 0% 0% no-repeat padding-box;
+    margin: 0 auto;
+    background: #eb7070 0% 0% no-repeat padding-box;
 }
 
 /*** media query ****/
