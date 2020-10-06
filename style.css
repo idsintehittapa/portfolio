@@ -95,6 +95,7 @@ body{
 .title-box{
   margin: 10vh 0 5vh;
   background: #434853 0% 0% no-repeat padding-box;
+  border-radius: 3%;
 }
 
 .p-title{
@@ -163,6 +164,7 @@ body{
 .tag{
   background: #434853 0% 0% no-repeat padding-box;
   margin: 10px;
+  border-radius: 3%;
 }
 
 .p-tag{
