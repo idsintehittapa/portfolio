@@ -66,7 +66,7 @@ body{
   font-size: 1.3em;
 }
 
-.p-portfolio-name{  /*img or div?*/
+.p-portfolio-name{  
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
@@ -94,6 +94,7 @@ body{
 .h2-presentation{
   font-size: 1.6em;
   line-height: 29px;
+  margin-left: 0px;
 }
 
 .profile-image{
