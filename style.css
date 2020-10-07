@@ -260,6 +260,7 @@ width: 100%;
   background: #FFFFFF 0% 0% no-repeat padding-box;
 }
 
+
 .skills{
   box-sizing: border-box;
   display: flex;
@@ -275,12 +276,14 @@ width: 100%;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  align-items: center;
   text-align: center;
 }
 
 .skills-code{
-  margin:10px;
+  margin: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 .p-code-title,
@@ -291,12 +294,21 @@ width: 100%;
   color: #434853;
   font-size: 1.2em;
   margin: 5px;
-  margin: 5vh 0 6vh;
+  margin: 0vh 0 1vh;
+}
+
+.p-code-title2{
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #434853;
+  font-size: 1.2em;
+  margin: 5px;
+  margin: 3vh 0 1vh;
 }
 
 .p-code-list{
   font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
   font-size: 1.2em;
   margin-bottom: 10px;
 }
