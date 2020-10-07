@@ -22,9 +22,6 @@ body{
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-}
-
-.hero-image{
   height: 508px;
   width: 100%;
   max-width: 768px;
@@ -34,6 +31,21 @@ body{
   background-size: cover;
   border: 1px solid #434853;
   opacity: 0.8;
+}
+
+.social-media-icons{
+  display: flex;
+  align-self: flex-end;
+  margin: 20px;
+}
+
+.fa {
+  font-size: 20px;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 5px;  
 }
 
 .p-portfolio{
@@ -49,16 +61,13 @@ body{
 }
 
 .profile-image{
-  top: 43%;
-  left: 27%;
-  width: 220px;
-  height: 220px;
-  background: transparent url('./images/profile.jpg') 0% 0% no-repeat padding-box;
-  background-position: top center;
+  width: 162px;
+  height: 162px;
   border: 3px solid #FFFFFF;
   border-radius: 50%;
-  position: relative; /*figure out which pos*/
-  z-index: 3;  /*what does this do? I thougj z went 0-1*/
+  position: absolute;
+  right: 5%;
+    bottom: 31%;
 }
 
 .summary-section{
@@ -162,7 +171,7 @@ body{
 }
 
 .tag{
-  background: #434853 0% 0% no-repeat padding-box;
+  background: #95A78E 0% 0% no-repeat padding-box;
   margin: 10px;
   border-radius: 3%;
 }
