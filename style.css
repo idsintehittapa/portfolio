@@ -26,7 +26,8 @@ body{
   width: 100%;
   max-width: 768px;
   margin: 0 auto;
-  background: transparent url("./images/IMG_2437.JPG") 0% 0% no-repeat padding-box;
+  /*background: transparent url("./images/IMG_2437.JPG") 0% 0% no-repeat padding-box;*/
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(187, 187, 187, 0.1)), url("./images/IMG_2437.JPG") 0% 0% no-repeat padding-box;
   background-position: bottom;
   background-size: cover;
   border: 1px solid #434853;
@@ -36,28 +37,63 @@ body{
 .social-media-icons{
   display: flex;
   align-self: flex-end;
-  margin: 20px;
+  margin: 50px 15px 0;
 }
 
 .fa {
   font-size: 20px;
-  color: #fff;
-  border: 3px solid #fff;
+  color: #FFFFFF;
+  border: 3px solid #FFFFFF;
   border-radius: 50%;
   padding: 10px;
   margin-right: 5px;  
+}
+
+.presentation{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  margin-left: 40px;
+  margin-top: 7vh;
+  color: #FFFFFF;
 }
 
 .p-portfolio{
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.52px;
+  font-size: 1.3em;
 }
 
 .p-portfolio-name{  /*img or div?*/
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
+  font-size: 1.3em;
+  margin-left: 10px;
+}
+
+.presentation-career{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-left: 40px;
+  margin-top: 2vh;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.52px;
+}
+
+.h1-presentation{
+  font-size: 2.5em;
+  margin-bottom: 1.5vh;
+}
+
+.h2-presentation{
+  font-size: 1.6em;
+  line-height: 29px;
 }
 
 .profile-image{
