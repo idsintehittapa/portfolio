@@ -102,9 +102,9 @@ body{
   height: 162px;
   border: 3px solid #FFFFFF;
   border-radius: 50%;
-  position: absolute;
-  right: 5%;
-    bottom: 31%;
+  position: relative;
+  right: -47%;
+  bottom: -3%;
 }
 
 .summary-section{
@@ -121,9 +121,9 @@ body{
 
 .p-summary{
   font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
+  font-size: 1.1em;
   text-align: left;
-  padding: 60px 20px;
+  padding: 12vh 2vh;
 }
 
 .tech-section{
