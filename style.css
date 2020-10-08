@@ -32,6 +32,14 @@ body{
   opacity: 0.8;
 }
 
+.header-wrapper{
+  margin: 6px -10px 0 -27px;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	position: relative;
+}
+
 .social-media-icons{
   display: flex;
   align-self: flex-end;
@@ -86,7 +94,8 @@ body{
 
 .h1-presentation{
   font-size: 2.5em;
-  margin-bottom: 1.5vh;
+  margin: 10px 0;
+  width: 80%;
 }
 
 .h2-presentation{
@@ -232,6 +241,7 @@ a {
   background: #95A78E 0% 0% no-repeat padding-box;
   margin: 7px 0px 0px;
   border-radius: 3%;
+  margin: 7px 10px 0 0;
 }
 
 .p-tag{
@@ -245,6 +255,7 @@ a {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 1.5em;
+  text-align: center;
   font-weight: 800;
   color: #434853;
   margin: 6vh 0 5vh; 
@@ -368,6 +379,17 @@ h4{
 
 /*** media query ****/
 @media (min-width: 768px) {
+  .header-wrapper{
+    margin: -21px 0px 0px 100px;
+    width: 89%;
+    }
+
+    .h1-presentation{
+      width: 50%;
+    }
+
+    .links-container{
+      width: 50%;
     }
 
 @media (min-width: 1024px){
