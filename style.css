@@ -24,7 +24,6 @@ body{
   flex-direction: column;
   height: 508px;
   width: 100%;
-  max-width: 768px;
   margin: 0 auto;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(187, 187, 187, 0.1)), url("./images/IMG_2437.JPG") 0% 0% no-repeat padding-box;
   background-position: bottom;
@@ -112,7 +111,6 @@ body{
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 768px;
   margin: 5px 0px 45px;
 }
 
@@ -297,7 +295,6 @@ footer{
   align-items: center;
   height: 342px;
   width: 100%;
-  max-width: 768px;
   margin: 0 auto;
   background: #95A78E 0% 0% no-repeat padding-box;
 
