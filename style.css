@@ -101,7 +101,7 @@ body{
 .h2-presentation{
   font-size: 1.6em;
   line-height: 29px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .profile-image{
@@ -120,8 +120,7 @@ body{
   flex-direction: column;
   align-items: center;
   width: 100%;
-  /* margin: 0 auto; Should I save this or not? */
-  margin: 5px 0px 45px;
+  margin: 5px 0 45px;
 }
 
 .purple{
@@ -212,7 +211,7 @@ a {
 .project-title{
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 900;
   margin: auto 0;
   color: #434853;
@@ -251,7 +250,7 @@ a {
   padding: 7px;
 }
 
-.other-heading{
+.h3-other-heading{
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 1.5em;
@@ -332,7 +331,7 @@ a {
 	display: flex;
 	justify-content: center;
 	text-transform: uppercase;
-	font-size: 11px;
+	font-size: 1em;
   font-weight: bold;
   margin-top: 20px;
 }
@@ -380,7 +379,7 @@ h4{
 /*** media query ****/
 @media (min-width: 768px) {
   .header-wrapper{
-    margin: -21px 0px 0px 100px;
+    margin: -21px 0 0 100px;
     width: 89%;
     }
 
@@ -423,9 +422,18 @@ h4{
       margin-left: 200px;
     }
     .header-wrapper{
-    margin: 225px 0px 0px 5px;
+    margin: 225px 0 0 5px;
     width: 76%;
     }
+
+    .line{
+      top: -9px;
+    }
+
+    .dot{
+      top: -6px;
+    }
+
 
     .p-summary{
       font-size: 2.1em;
@@ -442,8 +450,44 @@ h4{
       padding: 12vh 20vh;
     }
 
+    .tech-highlight{
+      color: #b2add5;
+      font-weight: 600;
+    }
+
     .project{
-      width: 40%;
+      width: 33%;
+    }
+
+    .project-title, 
+    .project-description{
+      font-size: 1.7em;
+    }
+
+    .h3-other-heading,
+    h4{
+      font-size: 2.5em;
+    }
+
+    .p-code-title,
+    .p-code-list,
+    .p-code-title2{
+      font-size: 1.6em;
+    }
+
+    .links-container i {
+      font-size: 30px;
+      height: 70px;
+      width: 70px;
+    }
+
+    .links-container{
+      width: 20%;
+    }
+
+    .p-contact-name,
+    .contact-mail{
+      font-size: 1.8em;
     }
 }
 
