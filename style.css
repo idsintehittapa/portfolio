@@ -26,7 +26,6 @@ body{
   width: 100%;
   max-width: 768px;
   margin: 0 auto;
-  /*background: transparent url("./images/IMG_2437.JPG") 0% 0% no-repeat padding-box;*/
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(187, 187, 187, 0.1)), url("./images/IMG_2437.JPG") 0% 0% no-repeat padding-box;
   background-position: bottom;
   background-size: cover;
@@ -107,16 +106,18 @@ body{
   bottom: -3%;
 }
 
-.summary-section{
+.main-sections{
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: 342px;
+  align-items: center;
   width: 100%;
   max-width: 768px;
-  margin: 0 auto;
+  margin: 5px 0px 45px;
+}
+
+.purple{
   background: #CCCADC 0% 0% no-repeat padding-box;
-  margin-top: 5px;
 }
 
 .line {
@@ -140,7 +141,6 @@ body{
   left: -8px;
 }
 
-
 .p-summary{
   position: relative;
   font-family: 'Montserrat', sans-serif;
@@ -148,20 +148,8 @@ body{
   padding: 12vh 3vh;
 }
 
-.tech-section{
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 342px;
-  width: 100%;
-  max-width: 768px;
-  margin: 0 auto;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-}
-
 .title-box{
-  margin: 10vh 0 5vh;
+  margin: 5vh 0 5vh;
   background: #434853 0% 0% no-repeat padding-box;
   border-radius: 3%;
 }
@@ -182,17 +170,6 @@ body{
   font-size: 1em;
   padding: 10px;
   letter-spacing: 0.52px;
-}
-
-.featured-projects{ /*flex-wrap?*/
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  max-width: 768px;
-  margin: 0 auto;
-  background: #CCCADC 0% 0% no-repeat padding-box;
 }
 
 .projects-wrapper{
@@ -271,30 +248,6 @@ a {
   margin: 15vh 0 10vh; 
 }
 
-.thoughts{
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 342px;
-  width: 100%;
-  max-width: 768px;
-  margin: 0 auto;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-}
-
-
-.skills{
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  max-width: 768px;
-  margin: 0 auto;
-  background: #CCCADC 0% 0% no-repeat padding-box;
-}
-
 .skills-container{
   box-sizing: border-box;
   display: flex;
@@ -307,6 +260,7 @@ a {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  padding: 10px;
 }
 
 .p-code-title,
@@ -334,18 +288,6 @@ a {
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
   margin-bottom: 10px;
-}
-
-.for-more{
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 342px;
-  width: 100%;
-  max-width: 768px;
-  margin: 0 auto;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
 }
 
 footer{
@@ -395,14 +337,7 @@ footer{
       max-width: 1950px;
     }
 
-    /*.featured-projects{
-      width: 100%;
-      max-width: 1950px;
-    }*/
-
     .project{
       width: 40%;
     }
-
-  
 }
