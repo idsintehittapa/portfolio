@@ -420,10 +420,26 @@ h4{
     .profile-image{
       width: 333px;
       height: 333px;
+      margin-left: 200px;
     }
     .header-wrapper{
-    margin: 220px 0px 0px 5px;
+    margin: 225px 0px 0px 5px;
     width: 76%;
+    }
+
+    .p-summary{
+      font-size: 2.1em;
+      padding: 12vh 20vh;
+      letter-spacing: 0.52px;
+    }
+
+    h3{
+      font-size: 2.6em;
+    }
+
+    .p-tech-info{
+      font-size: 2em;
+      padding: 12vh 20vh;
     }
 
     .project{
