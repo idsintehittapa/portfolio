@@ -394,13 +394,43 @@ h4{
   }
 
 @media (min-width: 1024px){
-    .hero-image{
+    .top-section{
       height: 969px;
       width: 100%;
       max-width: 1950px;
+    }
+
+    .fa{
+      font-size: 35px;
+    }
+
+    .p-portfolio, 
+    .p-portfolio-name{
+      font-size: 2.3em;
+    }
+
+    .h1-presentation{
+      font-size: 3.5em;
+    }
+
+    .h2-presentation{
+      font-size: 2.6em;
+    }
+
+    .profile-image{
+      width: 333px;
+      height: 333px;
+    }
+    .header-wrapper{
+    margin: 220px 0px 0px 5px;
+    width: 76%;
     }
 
     .project{
       width: 40%;
     }
 }
+
+
+
+
