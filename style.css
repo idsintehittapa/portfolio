@@ -119,11 +119,33 @@ body{
   margin-top: 5px;
 }
 
+.line {
+	background: #434853;
+	width: 35px;
+	height: 3px;
+  display: inline-block;
+  position: relative;
+  top: -3px;
+  left: 1px;
+}
+
+.dot {
+	background: #434853;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	display: inline-block;
+  position: relative;
+  top: 0px;
+  left: -8px;
+}
+
+
 .p-summary{
+  position: relative;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.1em;
-  text-align: left;
-  padding: 12vh 2vh;
+  padding: 12vh 3vh;
 }
 
 .tech-section{
@@ -188,7 +210,8 @@ width: 100%;
   margin: 20px;
 }
 
-.a-text{
+.a-text,
+a {
   text-decoration: none;
   color: #000000;
 }
@@ -335,11 +358,11 @@ footer{
   max-width: 768px;
   margin: 0 auto;
   background: #95A78E 0% 0% no-repeat padding-box;
+
 }
 
 .p-contact{
   font-family: 'Montserrat', sans-serif;
-  color: #FFFFFF;
   font-size: 1.7em;
   text-transform: uppercase;
   font-weight: 900;
@@ -352,15 +375,13 @@ footer{
   font-weight: 800;
   font-size: 1.2em;
   text-transform: uppercase;
-  color: #FFFFFF;
   margin: 10px 0 10px;
 }
 
-.p-contact-mail{
+.contact-mail{
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
   text-transform: uppercase;
-  color: #FFFFFF
 }
 
 /*** media query ****/
