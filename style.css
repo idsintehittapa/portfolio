@@ -197,10 +197,11 @@ a {
   margin-bottom: 20px;
 }
 
-h4{
+.project-title{
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-size: 1.5em;
+  font-weight: 900;
   margin: auto 0;
   color: #434853;
 }
@@ -233,11 +234,11 @@ h4{
 .p-tag{
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #434853;
   padding: 7px;
 }
 
-h5{
+.other-heading{
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 1.5em;
@@ -300,7 +301,7 @@ footer{
 
 }
 
-h6{
+h4{
   font-family: 'Montserrat', sans-serif;
   font-size: 1.7em;
   text-transform: uppercase;
