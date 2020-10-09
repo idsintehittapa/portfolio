@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Johanna Blom's portfolio</title>
+    <title>Portfolio: Johanna Blom</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style.css" />
 </head>
@@ -30,7 +30,8 @@
                 <h1 tabindex="0" class="h1-presentation">Front-end Developer</h1>
                 <h2 tabindex="0" class="h2-presentation">+ background in sociology</h2>
             </div>
-            <img tabindex="0" class="profile-image" src="./images/profile.jpg" alt="profile picture" />
+            <img tabindex="0" aria-label="Profile picture" class="profile-image" src="./images/profile.jpg"
+                alt="profile picture" />
         </section>
     </header>
 
@@ -48,18 +49,19 @@
             <h3 tabindex="0">Tech</h3>
         </div>
         <p tabindex="0" class="p-tech-info">
-            HTML, CSS, <span class="tech-highlight">JavaScript, React, Redux,</span> Node.js, Git, Web Accessibly,
+            HTML, CSS, <span class="tech-highlight">JavaScript, React, Redux,</span> Node.js, Git, Web accessibility,
             API:s, mob-programming, pair-programming, Github.
         </p>
     </section>
 
-    <section class="main-sections purple">
+    <section class="main-sections purple" aria-label="Projects I have made">
         <div class="title-box">
             <h3 tabindex="0">Featured projects</h3>
         </div>
         <section class="projects-wrapper">
             <article class="project">
-                <a href="https://github.com/idsintehittapa/project-weather-app" class="a-text">
+                <a href="https://github.com/idsintehittapa/project-weather-app" class="a-text" tabindex="0"
+                    aria-label="Link to Weather App on GitHub" role="link">
                     <img class="project-image" src="https://www.fillmurray.com/460/300" alt="Image of weather app">
                     <p class="project-title">Weather app.</p>
                     <p class="project-description">Web app build in JavaScript using open weather API <span
