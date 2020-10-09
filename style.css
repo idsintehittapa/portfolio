@@ -399,6 +399,14 @@ h4{
       width: 50%;
     }
 
+    .p-summary{
+      padding: 6vh 13vh;
+    }
+
+    .p-tech-info{
+      padding: 0 13vh;
+    }
+
     .skills-container{
       width: 40%;
     }
