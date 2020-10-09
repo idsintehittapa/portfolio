@@ -267,17 +267,21 @@ a {
 .skills-container{
   box-sizing: border-box;
   display: flex;
-  flex-direction: row;
-  text-align: center;
+  width: 100%;
 }
 
-.skills-code{
-  margin: 10px;
-  box-sizing: border-box;
+.skills-code,
+.skills-tool,
+.skills-more{
+  text-align: center;
+  width: 50%;
+}
+
+.test{
   display: flex;
   flex-direction: column;
-  padding: 10px;
 }
+
 
 .p-code-title,
 .toolbox-code{
@@ -290,7 +294,7 @@ a {
   margin: 0vh 0 1vh;
 }
 
-.p-code-title2{
+.p-code-title-last{
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-weight: 900;
@@ -472,9 +476,18 @@ h4{
       font-size: 2.5em;
     }
 
+    .skills-container{
+      width: 33%;
+    }
+
+    .test{
+      flex-direction: row;
+      width: 67%;
+    }
+
     .p-code-title,
     .p-code-list,
-    .p-code-title2{
+    .p-code-title-last{
       font-size: 1.6em;
     }
 
