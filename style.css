@@ -204,8 +204,11 @@ a {
 }
 
 .project-image{
+  display: block;
+	object-fit: cover;
   width: 100%;
   margin-bottom: 20px;
+  opacity: 0.8;
 }
 
 .project-title{
