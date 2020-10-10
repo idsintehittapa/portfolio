@@ -33,7 +33,7 @@ body{
 }
 
 .header-wrapper{
-  margin: 6px -10px 0 -27px;
+  margin: 10px -10px 0 -27px;
 	display: flex;
 	flex-direction: column;
 	align-self: center;
@@ -391,7 +391,7 @@ h4{
 /*** media query ****/
 @media (min-width: 768px) {
   .header-wrapper{
-    margin: -21px 0 0 100px;
+    margin: -7px 0 0 100px;
     width: 89%;
     }
 
