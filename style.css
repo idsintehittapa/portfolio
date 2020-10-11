@@ -25,7 +25,7 @@ body{
   height: 508px;
   width: 100%;
   margin: 0 auto;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(187, 187, 187, 0.1)), url("./images/background.JPG") 0% 0% no-repeat padding-box;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(187, 187, 187, 0.1)), url("./images/background.JPG") 0 0 no-repeat padding-box;
   background-position: bottom;
   background-size: cover;
   border: 1px solid #434853;
@@ -124,7 +124,7 @@ body{
 }
 
 .purple{
-  background: #CCCADC 0% 0% no-repeat padding-box;
+  background: #CCCADC 0 0 no-repeat padding-box;
 }
 
 .line {
@@ -144,7 +144,7 @@ body{
 	border-radius: 50%;
 	display: inline-block;
   position: relative;
-  top: 0px;
+  top: 0;
   left: -8px;
 }
 
@@ -157,7 +157,7 @@ body{
 
 .title-box{
   margin: 5vh 0 5vh;
-  background: #434853 0% 0% no-repeat padding-box;
+  background: #434853 0 0 no-repeat padding-box;
   border-radius: 3%;
 }
 
@@ -228,7 +228,6 @@ a {
 }
 
 .arrow {
-  all: unset;
   color: #434853;
   font-weight: bold;
   text-decoration: underline;
@@ -240,8 +239,7 @@ a {
 }
 
 .tag{
-  background: #95A78E 0% 0% no-repeat padding-box;
-  margin: 7px 0px 0px;
+  background: #95A78E 0 0 no-repeat padding-box;
   border-radius: 3%;
   margin: 7px 10px 0 0;
 }
@@ -292,7 +290,7 @@ a {
   color: #434853;
   font-size: 1.2em;
   margin: 5px;
-  margin: 0vh 0 1vh;
+  margin: 0 0 1vh;
 }
 
 .p-code-title-last{
@@ -363,8 +361,7 @@ footer{
   height: 342px;
   width: 100%;
   margin: 0 auto;
-  background: #95A78E 0% 0% no-repeat padding-box;
-
+  background: #95A78E 0 0 no-repeat padding-box;
 }
 
 h4{
