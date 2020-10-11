@@ -25,7 +25,7 @@ body{
   height: 508px;
   width: 100%;
   margin: 0 auto;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(187, 187, 187, 0.1)), url("./images/IMG_2437.JPG") 0% 0% no-repeat padding-box;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(187, 187, 187, 0.1)), url("./images/background.JPG") 0% 0% no-repeat padding-box;
   background-position: bottom;
   background-size: cover;
   border: 1px solid #434853;
