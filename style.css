@@ -25,7 +25,7 @@ body{
   height: 508px;
   width: 100%;
   margin: 0 auto;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(187, 187, 187, 0.1)), url("./images/background.JPG") 0 0 no-repeat padding-box;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(187, 187, 187, 0.2)), url("./images/background.JPG") 0 0 no-repeat padding-box;
   background-position: bottom;
   background-size: cover;
   border: 1px solid #434853;
@@ -181,7 +181,8 @@ h3{
 }
 
 .projects-wrapper, 
-.other-projects-wrapper{
+.other-projects-wrapper,
+.thoughts-wrapper{
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
@@ -189,7 +190,8 @@ width: 100%;
 }
 
 .project, 
-.other-projects {
+.other-projects,
+.thoughts {
   box-sizing: border-box;
   width: 70%;
   flex-direction: column;
@@ -203,7 +205,8 @@ a {
   color: #000000;
 }
 
-.project-image{
+.project-image, 
+.thoughts-image{
   display: block;
 	object-fit: cover;
   width: 100%;
@@ -211,7 +214,8 @@ a {
   opacity: 0.8;
 }
 
-.project-title{
+.project-title,
+.thoughts-title{
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-size: 1.2em;
@@ -236,6 +240,7 @@ a {
 .tag-container{
   box-sizing: border-box;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .tag{
@@ -261,6 +266,30 @@ a {
   margin: 6vh 0 5vh; 
 }
 
+.thoughts-subtitle{
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1.52px;
+  font-size: 1.1em;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.first-line{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10px;
+}
+
+/*.thoughts{ /*dont forget to fixa MQ with this too*/
+ /* margin: 30px 0 0 0;*/
+/*}*/
+
+.article-published{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  color: #534e7e;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
 
 .skills-container{
   box-sizing: border-box;
@@ -480,12 +509,15 @@ h4{
       font-weight: 600;
     }
 
-    .project{
+    .project, 
+    .thoughts{
       width: 33%;
     }
 
     .project-title, 
-    .project-description{
+    .project-description,
+    .thoughts-title,
+    .thoughts-subtitle{
       font-size: 1.7em;
     }
 
@@ -499,6 +531,16 @@ h4{
     .p-code-title-last,
     .p-code-list-last{
       font-size: 1.6em;
+    }
+
+    .article-published{
+      font-size: 1.3em;
+      margin-bottom: 10px;
+    }
+
+    .first-line{
+      font-size: 1.4em;
+      margin-top: 20px;
     }
 
     .skills-container{
