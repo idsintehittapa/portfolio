@@ -454,9 +454,12 @@ h4{
   }
 
 @media (min-width: 1024px){
+    body{
+      max-width: 1500px;
+    }
+
     .top-section{
       width: 100%;
-      max-width: 1500px;
     }
 
     .fa{
