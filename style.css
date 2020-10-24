@@ -418,8 +418,8 @@ h4{
 /*** media query ****/
 @media (min-width: 768px) {
   .header-wrapper{
-    margin: -7px 0 0 100px;
-    width: 89%;
+    margin: -18px 0 0 72px;
+    width: 85%;
     }
 
     .h1-presentation{
@@ -434,6 +434,11 @@ h4{
       padding: 0 13vh;
     }
 
+    .project, 
+    .thoughts{
+      width: 50%;
+    }
+
     .skills-container{
       width: 40%;
     }
@@ -445,13 +450,13 @@ h4{
     .links-container{
       width: 50%;
     }
+
   }
 
 @media (min-width: 1024px){
     .top-section{
-      height: 969px;
       width: 100%;
-      max-width: 1950px;
+      max-width: 1500px;
     }
 
     .fa{
@@ -472,13 +477,16 @@ h4{
     }
 
     .profile-image{
-      width: 333px;
-      height: 333px;
+      width: 200px;
+      height: 200px;
       margin-left: 200px;
+      right: -56%;
+      bottom: 8%;
     }
+
     .header-wrapper{
-    margin: 225px 0 0 5px;
-    width: 76%;
+    margin: -34px 0 0 5px;
+    width: 86%;
     }
 
     .line{
