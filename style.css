@@ -22,7 +22,7 @@ body{
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: 508px;
+  height: 100vh;
   width: 100%;
   margin: 0 auto;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(187, 187, 187, 0.2)), url("./images/background.JPG") 0 0 no-repeat padding-box;
@@ -30,6 +30,17 @@ body{
   background-size: cover;
   border: 1px solid #434853;
   opacity: 0.8;
+}
+
+.new-content{
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  max-width: 1500px;
+  background-color: #000000;
+  position: absolute;
+  z-index: 5;
+
 }
 
 .header-wrapper{
@@ -65,11 +76,26 @@ body{
   color: #FFFFFF;
 }
 
+.presentation-moved{
+  word-wrap: break-word;
+  margin: 24px 40px 0px;
+}
+
 .p-portfolio{
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.52px;
   font-size: 1.3em;
+  opacity: 0.8;
+}
+
+.p-portfolio-moved{
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.52px;
+  font-size: 1.3em;
+  color: #FCBC14;
+  margin: 0;
 }
 
 .p-portfolio-name{  
@@ -78,6 +104,7 @@ body{
   text-transform: uppercase;
   font-size: 1.3em;
   margin-left: 10px;
+  opacity: 0.8;
 }
 
 .presentation-career{
@@ -92,16 +119,31 @@ body{
   letter-spacing: 0.52px;
 }
 
+.h1-moved{
+  font-size: 2.5em;
+  margin: 10px 0 100px;
+  width: 100%;
+  color: #FCBC14;
+  background-image: url(https://media.giphy.com/media/3o85xH0vZ6np1ciShW/giphy.gif);
+  background-size: cover;
+	color: transparent;
+  -moz-background-clip: text;
+	-webkit-background-clip: text;
+  line-height: .75;
+}
+
 .h1-presentation{
   font-size: 2.5em;
   margin: 10px 0;
   width: 80%;
+  opacity: 0.8;
 }
 
 .h2-presentation{
   font-size: 1.6em;
   line-height: 29px;
   margin-left: 0;
+  opacity: 0.8;
 }
 
 .profile-image{
@@ -422,8 +464,23 @@ h4{
     width: 85%;
     }
 
+    .p-portfolio-moved{
+      font-size: 1.6em;
+    }
+
+    .h1-moved{
+      font-size: 3.5em;
+    }
+
     .h1-presentation{
       width: 50%;
+    }
+
+    .profile-image{
+      width: 250px;
+      height: 250px;
+      right: -64%;
+      bottom: 8%;
     }
 
     .p-summary{
@@ -471,6 +528,19 @@ h4{
       font-size: 2.3em;
     }
 
+    .presentation-moved{
+      margin: 74px 40px 0px;
+      max-width: 1500px;
+    }
+
+    .p-portfolio-moved{
+      font-size: 3.6em;
+    }
+
+    .h1-moved{
+      font-size: 5.5em;
+    }
+
     .h1-presentation{
       font-size: 3.5em;
     }
@@ -480,8 +550,8 @@ h4{
     }
 
     .profile-image{
-      width: 200px;
-      height: 200px;
+      width: 350px;
+      height: 350px;
       margin-left: 200px;
       right: -56%;
       bottom: 8%;
